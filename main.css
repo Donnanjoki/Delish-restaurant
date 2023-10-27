@@ -1,4 +1,100 @@
-font-family: 'Alice',
-serif;
-font-family: 'Quattrocento Sans',
-sans-serif;
+/* font-family: 'Alice',
+serif;*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* === Scroll behavior === */
+:root {
+    scroll-behavior: smooth;
+}
+
+/* === Sections === */
+section {
+    overflow: hidden;
+    padding: 80px 0;
+    background: white;
+}
+
+
+/* === Header === */
+.header {
+    z-index: 1;
+    height: 5px;
+    background: gold;
+    font-size: 16px;
+    font-family: Quattrocento Sans, sans-serif;
+    display: block;
+}
+
+.header .logo {
+    margin: 0;
+    max-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    position: relative;
+    text-decoration: none;
+}
+
+.header .logo h1 {
+    margin: 0;
+    max-height: 30px;
+    margin-right: 4px;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(9, 9, 8);
+    display: inline-block;
+    line-height: 80px;
+}
+
+.header .logo h1 span {
+    color: rgb(238, 104, 9);
+    display: inline-block;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0% 6%;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0% 10%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.navbar ul li {
+    position: relative;
+    white-space: nowrap;
+}
+
+.navbar ul li a {
+    padding: 0 2px;
+    text-decoration: none;
+    color: rgb(9, 9, 8);
+    font-size: 17px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+/* ==== contact ==== */
+
+
+/* === Footer === */
+
+.footer {
+    padding: 50px 0;
+    width: 100%;
+    position: absolute;
+    font-size: 16px;
+    font-family: Quattrocento Sans, sans-serif;
+    text-align: center;
+    background: rgb(231, 176, 39);
+}
