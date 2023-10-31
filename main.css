@@ -98,3 +98,14 @@ section {
     text-align: center;
     background: rgb(231, 176, 39);
 }
+
+.social-links .fa {
+    color: black;
+    margin: 0;
+    cursor: pointer;
+}
+
+.copyright {
+    font-size: 16px;
+    text-align: center;
+}
