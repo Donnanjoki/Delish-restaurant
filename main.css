@@ -87,10 +87,11 @@ section {
 /* ==== contact ==== */
 
 
+
 /* === Footer === */
 
 .footer {
-    padding: 50px 0;
+    padding: 40px 0;
     width: 100%;
     position: absolute;
     font-size: 16px;
@@ -99,13 +100,40 @@ section {
     background: rgb(231, 176, 39);
 }
 
-.social-links .fa {
+.container-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.newsletter,
+.contact,
+.timing {
+    margin-bottom: 20px;
+    padding-right: 20px;
+
+}
+
+.container-2 {
+    text-align: center;
+}
+
+.icons h4 {
+    position: relative;
+    font-weight: 600;
+}
+
+.icons {
     color: black;
-    margin: 0;
     cursor: pointer;
+    display: inline-block;
+}
+
+.icons .fab {
+    padding: 5px
 }
 
 .copyright {
     font-size: 16px;
     text-align: center;
+    margin-top: 20px;
 }
